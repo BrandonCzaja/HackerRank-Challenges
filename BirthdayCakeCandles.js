@@ -8,6 +8,7 @@ The maximum height candles are 4 units high. There are 2 of them, so return 2.
 
 */
 
+// MY ANSWER
 // const birthdayCakeCandles = (candles) => {
 //     candles = candles.sort();
 //     let tallestCandle = candles[candles.length - 1];
@@ -22,18 +23,6 @@ The maximum height candles are 4 units high. There are 2 of them, so return 2.
 //     console.log(totalCandles);
 // };
 
-// FOUND SOLUTION
-function birthdayCakeCandles(candles) {
-    // candles = candles.sort();
-    // let tallestCandle = candles[candles.length - 1];
-    // let totalCandles = 0;
-    // for (let i = 0; i <= candles.length; i++) {
-    //     if (candles[i] == tallestCandle) {
-    //         totalCandles += 1;
-    //     }
-    // }
-    // return totalCandles
-}
 // FOUND THIS SOLUTION
 function birthdayCakeCandles(arr) {
     // Step 1
